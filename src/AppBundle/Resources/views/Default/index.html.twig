@@ -1,0 +1,72 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}SUPINFO Lyon - Pizzas Dominos{% endblock %}
+{% block description %}<meta name="description" content={{ 'category.list.description'|trans }}>{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {% stylesheets
+        'bundles/app/css/Default/flipclock.css'
+        'bundles/app/css/Default/index.css'
+        filter='cssrewrite'
+    %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+{% endblock %}
+
+
+{% block body %}
+    <section id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    {% include 'AppBundle:Default:index/index_intro.html.twig' %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pizzas">
+        <!-- Render Controller -->
+    </section>
+
+    <section id="networks">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-2">
+                    {% include 'AppBundle:Default:index/index_networks.html.twig' %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="school">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-0">
+                    {% include 'AppBundle:Default:index/index_school.html.twig' %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dev">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-2">
+                    {% include 'AppBundle:Default:index/index_dev.html.twig' %}
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts
+        'bundles/app/js/Default/flipclock.min.js'
+        'bundles/app/js/Default/index.js'
+    %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

@@ -1,0 +1,3 @@
+s_pizza_dominos_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SPizzaDominosBundle:Default:index }

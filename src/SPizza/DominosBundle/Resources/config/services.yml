@@ -1,0 +1,4 @@
+services:
+#    s_pizza_dominos.example:
+#        class: SPizza\DominosBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

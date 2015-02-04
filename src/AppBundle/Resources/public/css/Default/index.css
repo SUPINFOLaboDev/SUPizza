@@ -1,0 +1,54 @@
+section {
+    padding: 5% 0 5% 0;
+    border-bottom: 2px #ebebeb solid;
+}
+
+section#intro h1, section#intro h2 {
+    margin-top: 0;
+}
+
+section#intro label.label {
+    margin-right: 5px;
+}
+
+section#pizzas {
+    min-height: 1080px;
+    background: url("../../images/Default/index/pizza-background.png");
+    background-size: cover;
+}
+
+/* CLOCK */
+.clock {
+    margin: 0;
+}
+
+.flip-clock-wrapper ul {
+    margin: 3px;
+    width: 30px;
+    height: 45px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 42px;
+    border-radius: 3px;
+}
+
+.flip-clock-wrapper ul li a div div.inn {
+    border-radius: 3px;
+    font-size: 35px;
+    line-height: 43px;
+}
+
+.flip-clock-label {
+    display: none;
+}
+
+.flip-clock-divider {
+    width: 10px;
+    height: 50px;
+}
+
+.flip-clock-dot {
+    width: 5px;
+    height: 5px;
+    left: 3px;
+}
