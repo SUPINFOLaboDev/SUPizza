@@ -80,3 +80,8 @@ fos_user:
     db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
     firewall_name: main
     user_class: SPizza\UserBundle\Entity\User
+    registration:
+        form:
+            type: spizza_user_registration
+        confirmation:
+            enabled: false

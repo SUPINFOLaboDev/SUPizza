@@ -38,8 +38,8 @@ class User extends BaseUser
      *     checkMX = true
      * )
      * @Assert\Regex(
-     *     pattern = "/^\w.*@supinfo\.com$/",
-     *     match = false,
+     *     pattern = "/@supinfo\.com$/i",
+     *     match = true,
      *     message = "Votre adresse email doit se terminer par @supinfo.com"
      * )
      */
