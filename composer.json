@@ -19,9 +19,9 @@
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
         "friendsofsymfony/user-bundle": "~2.0@dev",
-        "components/bootstrap": "dev-master",
-        "components/jquery": "dev-master",
-        "components/font-awesome": "4.3.*@dev"
+        "components/bootstrap": "~3.2",
+        "components/jquery": "~1.11",
+        "bmatzner/fontawesome-bundle": "~4.2"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

@@ -55,9 +55,6 @@ assetic:
         bootstrap_js:
             inputs:
                 - '%kernel.root_dir%/../vendor/components/bootstrap/js/bootstrap.min.js'
-        font_awesome:
-            inputs:
-                - '%kernel.root_dir%/../vendor/components/font-awesome/css/font-awesome.min.css'
 
 # Doctrine Configuration
 doctrine:

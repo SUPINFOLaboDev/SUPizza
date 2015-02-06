@@ -6,9 +6,9 @@
         {% block description %}{% endblock %}
 
         {% block stylesheets %}
-            {% stylesheets output='css/base.css'
+            {% stylesheets filter='cssrewrite' output='css/base.css'
                 '@bootstrap_css'
-                '@font_awesome'
+                'bundles/bmatznerfontawesome/css/font-awesome.min.css'
             %}
                 <link href="{{ asset_url }}" type="text/css" rel="stylesheet">
             {% endstylesheets %}
