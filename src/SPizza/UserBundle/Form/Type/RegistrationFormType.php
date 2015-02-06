@@ -34,7 +34,7 @@ class RegistrationFormType extends BaseType
                 'translation_domain' => 'FOSUserBundle',
                 'attr' => array('placeholder' => 'Skywalker')
             ))
-            ->add('idBooster', 'text', array(
+            ->add('boosterId', 'text', array(
                 'required'  => true,
                 'label' => 'ID Booster',
                 'translation_domain' => 'FOSUserBundle',

@@ -9,6 +9,7 @@
             {% stylesheets filter='cssrewrite' output='css/base.css'
                 '@bootstrap_css'
                 'bundles/bmatznerfontawesome/css/font-awesome.min.css'
+                '@AppBundle/Resources/public/css/base.css'
             %}
                 <link href="{{ asset_url }}" type="text/css" rel="stylesheet">
             {% endstylesheets %}
@@ -21,7 +22,7 @@
                 {% set route = path('spizza_app_default_index') %}
             {% endif %}
 
-            <nav class="navbar navbar-default navbar-static-top">
+            <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">

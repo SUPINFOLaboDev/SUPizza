@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ace87925fab6f09610ba95d4ed08159",
+    "hash": "c8a8822173a4f7a2405409184788f992",
     "packages": [
         {
             "name": "bmatzner/fontawesome-bundle",
@@ -877,54 +877,6 @@
                 "orm"
             ],
             "time": "2014-12-16 13:45:01"
-        },
-        {
-            "name": "fkr/cssurlrewrite-bundle",
-            "version": "v1.0.0",
-            "target-dir": "Fkr/CssURLRewriteBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fkrauthan/FkrCssURLRewriteBundle.git",
-                "reference": "01b4986d22998487f9085a6f8860f97a8bdbfb67"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fkrauthan/FkrCssURLRewriteBundle/zipball/01b4986d22998487f9085a6f8860f97a8bdbfb67",
-                "reference": "01b4986d22998487f9085a6f8860f97a8bdbfb67",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "symfony/assetic-bundle": "*"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Fkr\\CssURLRewriteBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Florian Krauthan",
-                    "email": "fkrauthan@gmx.net"
-                }
-            ],
-            "description": "A small assetic filter for symfony to fix all url paths at css documents to correct urls",
-            "homepage": "https://github.com/fkrauthan/FkrCssURLRewriteBundle",
-            "keywords": [
-                "Symfony Bundle",
-                "asset",
-                "assetic",
-                "css",
-                "css url",
-                "cssrewrite",
-                "rewrite"
-            ],
-            "time": "2013-01-04 04:20:50"
         },
         {
             "name": "friendsofsymfony/user-bundle",

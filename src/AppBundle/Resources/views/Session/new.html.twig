@@ -1,0 +1,20 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}Créer une nouvelle session{% endblock %}
+
+{% block body %}
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Créer une nouvelle session</h1>
+            <p>
+                <a href="{{ path('session') }}" class="btn btn-default">
+                    Retourner à la liste
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        {{ form(form) }}
+    </div>
+{% endblock %}

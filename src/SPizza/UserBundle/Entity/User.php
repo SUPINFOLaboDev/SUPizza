@@ -21,14 +21,14 @@ class User extends BaseUser
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    protected  $id;
+    protected $id;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="idBooster", type="integer")
+     * @ORM\Column(name="booster_id", type="integer")
      */
-    protected $idBooster;
+    protected $boosterId;
 
     /**
      * @var string
@@ -76,26 +76,26 @@ class User extends BaseUser
     }
 
     /**
-     * Set idBooster
+     * Set boosterId
      *
-     * @param integer $idBooster
+     * @param integer $boosterId
      * @return User
      */
-    public function setIdBooster($idBooster)
+    public function setBoosterId($boosterId)
     {
-        $this->idBooster = $idBooster;
+        $this->boosterId = $boosterId;
 
         return $this;
     }
 
     /**
-     * Get idBooster
+     * Get boosterId
      *
      * @return integer 
      */
-    public function getIdBooster()
+    public function getBoosterId()
     {
-        return $this->idBooster;
+        return $this->boosterId;
     }
 
     /**
